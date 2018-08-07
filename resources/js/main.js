@@ -6,10 +6,10 @@ $(document).ready(function () {
     autoplay: true,
     autoplayspeed: 4000,
     arrows: false,
-
     infinite: true,
     pauseOnFocus: false,
     pauseOnHover: false,
+    cssEase: 'ease-in',
     responsive: [
       {
         breakpoint: 950,
