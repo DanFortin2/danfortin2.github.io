@@ -68,6 +68,23 @@ span {
   border-bottom: 4px solid rgb(5, 90, 30);
 }
 
+@media only screen and (max-width: 770px) {
+  .nav li {
+    width: 25%;
+    display: inline-block;
+  }
+  .nav {
+    margin-left: 10rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    margin-left: 7rem;
+  }
+}
+
 /*banner*/
 
 
@@ -84,7 +101,7 @@ span {
 
 .slogan h1 {
   background-color: black;
-  width: 40%;
+  width: 45%;
   font-size: 1rem;
   color: white;
   font-weight: bold;
@@ -141,6 +158,12 @@ span {
   background-size: cover;
 }
 
+@media only screen and (max-width: 1300px) {
+  .slogan h1 {
+    font-size: 0.75rem;
+  }
+}
+
 
 /*profile*/
 
@@ -162,7 +185,41 @@ span {
 
 #contact {
   margin-top: 0.25rem;
+  margin-bottom: 5rem;
 }
+
+.email {
+  font-family: "Bungee Inline", "Helvetica";
+  color: white;
+}
+
+.contact-banner {
+  background-image: url(../images/contactmebanner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 30rem;
+  padding: 3rem;
+}
+
+.contact-paraphrase {
+  background-color: white;
+  border: 4px solid rgb(5, 90, 30);
+  width: 60%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: rgba(90, 90, 90, 0.9);
+  color: white;
+}
+
+
+@media only screen and (max-width: 950px) {
+  .contact-paraphrase {
+    width: 80%;
+  }
+}
+
+/*footer*/
 
 .footer  {
   background-color: black;
@@ -177,4 +234,10 @@ span {
 
 .contact-text {
   margin-top: 0;
+}
+
+@media only screen and (max-width: 649px) {
+  h1 {
+    font-size: 1.75rem;
+  }
 }
