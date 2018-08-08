@@ -74,14 +74,31 @@ span {
     display: inline-block;
   }
   .nav {
-    margin-left: 10rem;
-    width: 100%;
+
+    width: 75%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .nav {
     margin-left: 7rem;
+  }
+  .nav {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .nav li {
+    font-size: 0.5rem;
+    color: red;
+    width: 25%;
+  }
+  .nav {
+    margin-left: 0;
+  }
+  .logo {
+    width: 15%;
   }
 }
 
@@ -181,6 +198,12 @@ span {
   margin-top: 0;
 }
 
+@media only screen and (max-width: 530px) {
+  img {
+    width: 80%;
+  }
+}
+
 /*contact section*/
 
 #contact {
@@ -219,6 +242,19 @@ span {
   }
 }
 
+@media only screen and (max-width: 530px) {
+  .contact-paraphrase {
+    font-size: 0.75rem;
+  }
+  .contact-banner {
+    padding-bottom: 0;
+  }
+  #contact {
+    margin-bottom: 0;
+  }
+}
+
+
 /*footer*/
 
 .footer  {
@@ -239,5 +275,18 @@ span {
 @media only screen and (max-width: 649px) {
   h1 {
     font-size: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  h1 {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+  i {
+    transform: scale(0.75);
+  }
+  .text-left {
+    width: 70%;
   }
 }
