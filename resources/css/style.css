@@ -286,7 +286,7 @@ span {
   i {
     transform: scale(0.75);
   }
-  .text-left {
+  .company-name {
     width: 70%;
   }
 }
