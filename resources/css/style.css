@@ -181,6 +181,36 @@ span {
   }
 }
 
+@media only screen and (max-width: 560px) {
+  .jumbotron {
+    height: 22rem;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: none;
+    border-right: none;
+  }
+  .carasoul {
+    height: 22rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .secretagent {
+    background-position: center;
+  }
+  .tortoise {
+    background-position: center;
+  }
+  .capstone {
+    background-position: center;
+  }
+  .trackster {
+    background-position: left;
+  }
+  .jumpstart {
+    background-position: center;
+  }
+}
+
 
 /*profile*/
 
